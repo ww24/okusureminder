@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<link rel="manifest" href="/manifest.json">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/sticky-footer-navbar.min.css">
+	<link rel="stylesheet" href="/css/style.css">
+	{{{yield-styles}}}
+	<title>{{title}}お薬リマインダー</title>
+</head>
+<body>
+	<div class="container">
+		{{{yield}}}
+	</div>
+
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script>var _csrf = "{{_csrf}}";</script>
+	<script src="/js/app.js"></script>
+	{{{yield-scripts}}}
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "name": "okusureminder",
+  "version": "0.0.1",
+  "description": "okusuri nonda?",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ww24/okusureminder"
+  },
+  "author": "ww24",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ww24/okusureminder/issues"
+  },
+  "homepage": "https://github.com/ww24/okusureminder",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "config": "^1.12.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^0.8.0",
+    "csurf": "^1.7.0",
+    "express": "^4.12.3",
+    "express-session": "^1.10.4",
+    "hogan-express": "^0.5.2",
+    "js-yaml": "^3.2.7",
+    "mongoose": "3.8.25",
+    "passport": "^0.2.1",
+    "passport-twitter": "^1.0.3",
+    "request": "^2.54.0",
+    "validator": "^3.35.0"
+  },
+  "private": true
+}

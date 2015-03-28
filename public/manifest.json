@@ -1,0 +1,13 @@
+{
+  "name": "お薬リマインダ",
+  "short_name": "お薬リマインダ",
+  "icons": [{
+    "src": "/img/html5-badge.png",
+    "sizes": "64x64",
+    "type": "image/png"
+  }],
+  "start_url": "/home",
+  "display": "standalone",
+  "gcm_sender_id": "849903130382",
+  "gcm_user_visible_only": true
+}
