@@ -4,7 +4,7 @@
  */
 /* globals self */
 
-const icon_path = "/public/img/html5-badge.png";
+const icon_path = "/img/html5-badge.png";
 
 self.addEventListener("install", function () {
   console.log("installed.");
